@@ -1,4 +1,4 @@
-idf_component_register(SRCS "hello_world_main.c"
+idf_component_register(SRCS "cpuport.c" "context_gcc.S" "hello_world_main.c"
                     "rtthread/src/components.c"
                     "rtthread/src/scheduler.c"
                     "rtthread/src/device.c"

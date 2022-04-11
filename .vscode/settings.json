@@ -5,5 +5,16 @@
     "board/esp32c3-builtin.cfg"
   ],
   "idf.portWin": "COM4",
-  "idf.flashType": "JTAG"
+  "idf.flashType": "JTAG",
+  "files.associations": {
+    "panic_internal.h": "c",
+    "rtthread.h": "c",
+    "bitset": "c",
+    "chrono": "c",
+    "algorithm": "c",
+    "rtdebug.h": "c",
+    "rtservice.h": "c",
+    "rtdef.h": "c",
+    "rtconfig.h": "c"
+  }
 }
